@@ -1,0 +1,43 @@
+.max-width-1{
+    width: 80vw;
+}
+
+.responsive{
+    overflow: hidden;
+  }
+
+.max-width-2{
+    width: 85vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.article-width{
+    width: 55vw;
+}
+
+.mt{
+    margin-top: 20px;
+}
+.m-t{
+    margin-top: 10px;
+}
+
+.my{
+    margin: 0 10vw;
+}
+
+.form-text input, textarea{
+    width: 34vw;
+    padding: 10px;
+    border: 2px solid #410541;
+    border-radius: 8px;
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
+

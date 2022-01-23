@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fBlog - Article from the heart</title>
+    style
+        include CSS/style.css
+    style
+        include CSS/utile.css
+    style
+        include CSS/mobile.css
+    style
+        include CSS/contect.css
+</head>
+
+<body>
+    <nav class="container max-width-2 m-auto">
+
+       <div class="left">
+        <ul>
+            <li><a class="logo" href="/">fBLOG</a></li>
+        </ul>
+
+            <ul class="list">
+                <li><a class="ol" href="/">HOME</a></li>
+                <li><a class="ol" href="/">ABOUT</a></li>
+                <li><a class="ol" href="/contect">CONTECT</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <form action="/search" method="get">
+                <input type="search" placeholder="Search a article..." name="query" class="search-box">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="max-width-2 m-auto m-t">
+        <hr>
+    </div>
+    
+    <br>
+
+    <main class="contect-box">
+
+        <form class="form-area max-width-1 m-auto mt my" method="post" action="/contect">
+            <h1 class="contect-hdg">FILL UP THIS FORM TO CONTECT US</h1>
+            <div class="form-text">
+                <input type="text" name="name" placeholder="YOUR GOOD NAME">
+            </div>
+            <div class="form-text">
+                <input type="email" name="email" placeholder="YOUR EMAIL">
+            </div>
+            <div class="form-text">
+                <textarea name="help" placeholder="HOW CAN I HELP YOU!"  cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-text">
+                <button class="btn">SUBMIT</button>
+            </div>
+        </form>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-ar  m-auto">
+            <div class="left-foot">
+                <p class="responsive">fBlog - Article from the heart </p>
+                <p class="responsive">fBlog &copy Copyright-2021-22 HTML,CSS,Js</p>
+            </div>
+            <div class="right-foot"></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

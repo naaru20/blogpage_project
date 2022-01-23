@@ -1,0 +1,32 @@
+.contect-box {
+  height: 80.15vh;
+  font-family: var(--font2);
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.contect-hdg{
+  color: #410541;
+}
+
+.form-text {
+  margin: 8px 0;
+  width: 40vw;
+}
+
+.contect-box::after {
+  content: "";
+  position: absolute;
+  background-image: url("/Gallery/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: inherit;
+  opacity: 0.35;
+  z-index: -1;
+}
