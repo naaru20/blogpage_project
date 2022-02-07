@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fBlog - Article from the heart</title>
     style
-        include CSS/style.css
+        include ../static/style.css
     style
-        include CSS/utile.css
+        include ../static/utile.css
     style
-        include CSS/mobile.css
+        include ../static/mobile.css
 </head>
 
 <body>
     <nav class="container max-width-2 m-auto">
 
         <div class="left">
-        <ul>
-            <li><a class="logo" href="/">fBLOG</a></li>
-        </ul>
+            <ul>
+                <li><a class="logo" href="/">fBLOG</a></li>
+            </ul>
 
             <ul class="list">
                 <li><a class="ol" href="/">HOME</a></li>
@@ -49,17 +49,18 @@
     <main class="main-box max-width-1 m-auto mt">
 
         <div class="right-main">
-            <img src="Gallery/youth.jpg" alt="">
+            <img src="/static/youth.jpg" alt="">
         </div>
 
         <div class="left-main mt">
 
-           <p class="responsive">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia earum sint modi assumenda magni
-            reiciendis explicabo totam fugit, sunt voluptatum qui nam tenetur unde maxime deleniti ducimus aliquid
-            dolor nesciunt dolores incidunt illo? Doloribus harum, aut necessitatibus a tempora labore?Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Placeat error aperiam explicabo expedita delectus debitis
-            numquam deserunt maxime. Impedit voluptatibus blanditiis minus cumque quam ullam asperiores doloremque
-            at expedita et!</p>
+            <p class="responsive">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia earum sint modi
+                assumenda magni
+                reiciendis explicabo totam fugit, sunt voluptatum qui nam tenetur unde maxime deleniti ducimus aliquid
+                dolor nesciunt dolores incidunt illo? Doloribus harum, aut necessitatibus a tempora labore?Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Placeat error aperiam explicabo expedita delectus debitis
+                numquam deserunt maxime. Impedit voluptatibus blanditiis minus cumque quam ullam asperiores doloremque
+                at expedita et!</p>
 
         </div>
 
@@ -82,16 +83,18 @@
         <div class="content article-width">
 
             <div class="left-content">
-                <a href="/blogpost"><img src="Gallery/agriculture.jpg" alt=""></a>
+                <a href="/blogpost"><img src="/static/agriculture.jpg" alt=""></a>
             </div>
 
             <div class="right-content">
 
-                <div><a class="text-decoration" href="/blogpost"><b> Auther Name- J.D. Shivnandan </b></a></div>
+                <div class="authername">
+                    <a class="text-decoration" href="/blogpost"><b> Auther Name- J.D. Shivnandan </b></a>
+                </div>
                 <div>4 month ago | 6 min to read</div>
             </div>
         </div><br>
-        
+
         <div class="h-3">
             <h3>Importance of Uria</h3>
         </div>
@@ -99,7 +102,7 @@
         <div class="content article-width">
 
             <div class="left-content">
-                <a href="/blogpost"><img src="Gallery/agriculture.jpg" alt=""></a>
+                <a href="/blogpost"><img src="/static/agriculture.jpg" alt=""></a>
             </div>
 
             <div class="right-content">
@@ -116,7 +119,7 @@
         <div class="content article-width">
 
             <div class="left-content">
-                <a href="/blogpost"><img src="Gallery/youth.jpg" alt=""></a>
+                <a href="/blogpost"><img src="/static/youth.jpg" alt=""></a>
             </div>
 
             <div class="right-content">
@@ -132,7 +135,7 @@
         <div class="content article-width">
 
             <div class="left-content">
-                <a href="/blogpost"><img src="Gallery/media.jpg" alt=""></a>
+                <a href="/blogpost"><img src="/static/media.jpg" alt=""></a>
             </div>
 
             <div class="right-content">
@@ -149,7 +152,7 @@
         <div class="content article-width">
 
             <div class="left-content">
-                <a href="/blogpost"><img src="Gallery/media.jpg" alt=""></a>
+                <a href="/blogpost"><img src="/static/media.jpg" alt=""></a>
             </div>
 
             <div class="right-content">
@@ -166,7 +169,7 @@
         <div class="content article-width">
 
             <div class="left-content">
-                <a href="/blogpost"><img src="Gallery/media.jpg" alt=""></a>
+                <a href="/blogpost"><img src="/static/media.jpg" alt=""></a>
             </div>
 
             <div class="right-content">
@@ -186,9 +189,9 @@
                 <p class="responsive">fBlog - Article from the heart </p>
                 <p class="responsive">fBlog &copy Copyright-2021-22 HTML,CSS,Js</p>
             </div>
-           
-    </footer>
 
+    </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

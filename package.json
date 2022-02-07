@@ -1,0 +1,25 @@
+{
+  "name": "fblog",
+  "version": "1.0.0",
+  "description": "this is a blog site",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "author": "naaru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naaru20/blogpage_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naaru20/blogpage_project/issues"
+  },
+  "homepage": "https://github.com/naaru20/blogpage_project#readme"
+}
