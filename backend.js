@@ -13,9 +13,18 @@ async function main() {
 }
 
 const contectschema = new mongoose.Schema({
-  name: String,
-  email: String,
-  help: String,
+  name: {
+    type: String,
+    required : [true, "please Enter ur name"]
+  },
+  email: {
+    type: String,
+    required : [true, "please Enter ur name"]
+  },
+  help: {
+    type: String,
+    required : [true, "please Enter ur name"]
+  }
 });
 
 const contect = mongoose.model("contect", contectschema);
@@ -49,7 +58,7 @@ app.post("/contect", (req, res) => {
   myform
     .save()
     .then(() => {
-      res.send("your form is submited");
+      res.send("your form is submited successfully");
     })
     .catch(() => {
       res.status(400).send("form is not submited");
